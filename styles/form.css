@@ -1,3 +1,46 @@
-body{
-  color: #FFf
+body {
+  background-color: #2B2D42;
+  height: 100%;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;  
+  height: 100%;
+  overflow: hidden;
+  padding: 2rem;  
+  margin: 0 auto;
+}
+#root h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.6em;
+  line-height: 1em;
+  color: #EDF2F4;
+}
+
+#form{
+  color: #EDF2F4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+#sendForm{  
+  background-color: #EF233C;
+  border-color: #EF233C;
+  color: #EDF2f4;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8em;
+  line-height: 1em;
+  border-radius:5px;
+  width: 9rem;
+  height: 2.4rem;
+  letter-spacing: 0.02rem;
+  margin-top: 1rem;
+}
+
+#showArchive{
+  margin-bottom: 2rem;
 }
