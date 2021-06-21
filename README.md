@@ -13,6 +13,8 @@ $ https://github.com/jardelmitermayer/projetoExplicae.git
 $ cd pages
 ```
 
+# Pode ser visto online em:
+$ https://projeto-explicae.vercel.app/pages/home.html
 
 # :computer: Autor
 
