@@ -8,7 +8,7 @@ function randomNumbers() {
   const ArrayRaffleNumbers = new Array();
   while(ArrayRaffleNumbers.length < 6){
     let number = getRandomIntInclusive(1,60);
-    ArrayRaffleNumbers.push(String(number))
+    ArrayRaffleNumbers.push(number)
   }
   return ArrayRaffleNumbers;
 }

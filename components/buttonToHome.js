@@ -1,11 +1,12 @@
+const root = document.querySelector('#root');
+
 function buttonToHome () {
   var button = document.createElement('button');
   button.id = 'btn-to-home';
-  button.innerHTML = 'Home';
-  button.style.background = '#EF233C'
+  button.innerHTML = 'INICIO';
   button.onclick = function () {
-    window.location.href = 'index.html'
+    window.location.href = 'home.html'
   }
-  document.body.appendChild(button)
+  root.appendChild(button)
 }
 buttonToHome();

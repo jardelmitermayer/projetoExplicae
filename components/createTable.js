@@ -18,11 +18,12 @@ function createTable (line, column) {
     for (let j=0; j < column; j++){
       let column = document.createElement("td")
       if(raffleNumbers.includes(count)){
-        let number = transformNumbers(count)
-        column.innerText = number
+        let number = transformNumbers(count);
+        column.setAttribute('id', 'sorteado')   
+        column.innerText = number;
       }else {
-        let number = transformNumbers(count)
-        column.innerText = number
+        let number = transformNumbers(count);
+        column.innerText = number;
       }
       line.appendChild(column)
       count++;

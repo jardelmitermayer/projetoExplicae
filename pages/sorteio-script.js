@@ -1,4 +1,4 @@
-const sorteio = document.querySelector('#tabelaDiv');
+const sorteio = document.querySelector('#tableDiv');
 
 const lengthTables = document.querySelectorAll('table').length;
 console.log(lengthTables)
