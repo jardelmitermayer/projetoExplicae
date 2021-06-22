@@ -11,5 +11,6 @@ async function getUsers () {
   document.getElementById('email').innerText = email;
   document.getElementById('city').innerText = `${location.city}`;
   document.getElementById('nat').innerText = nat;
+  document.getElementById('email').style.wordWrap = 'break-word';
 }
 getUsers()

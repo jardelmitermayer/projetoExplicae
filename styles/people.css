@@ -4,13 +4,22 @@ body{
 #root{
   color: #FFF;
 }
-
-table {
-  border: 2px;
-  border-color: #FFF;
-  padding: 10px;
+#tablePeople{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#tableSection{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
 }
 table {
+  border-color: #FFF;
+  padding: 10px;
   border-collapse: collapse;
   border: 2px solid rgb(200, 200, 200);
   letter-spacing: 1px;
@@ -28,4 +37,38 @@ th {
 
 td {
   text-align: center;  
+}
+
+@media (max-width: 700px) { 
+  #root {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #tablePeople, #tableSection{    
+    width: 100%;
+  }
+  table {
+    display: flex;
+    width: 100%;
+    position: relative;
+    padding: 5px;
+    border: 1px solid rgb(200, 200, 200);
+  }
+  thead,th {
+    display: table-column;
+    float: left;
+  }
+  tbody{
+    width: 10rem;
+  }
+  tr{
+    display: flex;
+    flex-direction: column;
+  }
+  th{
+    padding: 20.2px 20px;
+  }
+  td{
+    padding: 1rem 0.5rem;
+  }
 }
